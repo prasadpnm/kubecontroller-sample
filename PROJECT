@@ -1,0 +1,10 @@
+domain: prasad.mukta
+repo: mycontroller
+resources:
+- group: webapp
+  kind: GuestBook
+  version: v1
+- group: webapp
+  kind: Redis
+  version: v1
+version: "2"
